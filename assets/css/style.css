@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+
+body{
+    margin: 0px;
+    background-color: #2e2e2e ;
+    font-family: 'Work Sans', sans-serif;
+}
+h2,h1,h3{
+    color: #ebccc2;
+}
+p{
+    color: #867772 
+}
+
+/*----------------------------------------
+    Header 
+----------------------------------------*/
+
+header{
+    display: flex;
+    align-items: baseline;
+}
+
+/*____  Nav + Logo  ____*/
+
+nav ul li{
+    display: inline;
+    padding-left: 50px;
+}
+
+nav ul li:hover{
+    text-decoration:underline;
+}
+
+nav ul a:hover{
+    color: #fff;
+}
+
+nav ul li:last-of-type{
+    padding-left: 100px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #ebccc2;
+}
+
+.logo{
+    padding: 20px 0 0 100px;
+    position: fixed;
+}
+nav{
+    padding-top: 20px;
+    margin-left: 50%;
+    position: fixed;
+}
+
+/*----------------------------------------
+    Main Section 01
+----------------------------------------*/
+main > h2{
+    padding: 150px 0 5% 30%;
+    line-height: 55px;
+    font-size: 40px;
+}
+
+#background:first-of-type{
+    background: url("../img/section-about-1.jpg") center/contain no-repeat;
+    height: 100vh;
+}
+
+/*----------------------------------------
+    Body Aside
+----------------------------------------*/
+
+aside a{
+    text-decoration: none;
+    color: #867772 
+}
+aside a:hover{
+    color: #fff
+}
+
+aside ul li{
+    padding-top: 100px;
+    list-style: none;
+    position: relative;
+}
+
+aside{
+    position: fixed;
+    padding: 10% 0 0 2.4%;
+}
+/*____  circul  ____*/
+.circul{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 100%;
+    display: inline-block;
+    left: -60px;
+    bottom: 1px
+}
+.inside{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border: 3px solid rgb(115, 115, 115);
+    border-radius: 100%;
+    display: inline-block;
+    left: -55px;
+    bottom: 5px
+}
+
+.still{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(115, 115, 115);
+    border: 3px solid rgb(115, 115, 115);
+    border-radius: 100%;
+    display: inline-block;
+    left: -55px;
+    bottom: 5px
+}
+
+.line{
+    position: absolute;
+    height: 70px;
+    width: 2px;
+    background-color: rgb(115, 115, 115);
+    display: inline-block;
+    left: -50px;
+    bottom: -80px
+}
+/*----------------------------------------
+    Section 02
+----------------------------------------*/
+
+.designContainer h2{
+    font-size: 30px;
+}
+.designContainer{
+    display: flex;
+}
+.designImg{
+    width: 30%;
+    padding: 10% 5% 10% 20%;
+}
+.designText{
+    width: 30%;
+    padding: 13% 0 10% 0;
+    line-height: 30px
+}
+
+/*----------------------------------------
+    Lounger Experiencs shop
+----------------------------------------*/
+
+/* !!!!Why my justify-context doesn't work and instead I have to use padding?*/
+.defaultContainer{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.defaultImg img{
+    flex: 1 0 50%;
+    width: 50vw;
+    height: 100vh;
+}
+
+.loungerSoudns{
+    line-height: 50px;
+    padding: 10% 10% 0 5%;
+}
+.loungerSoudns p{
+    padding-top: 5%;
+}
+.loungerSoudns h1{
+   font-size: 35px;
+}
+
+/*----------------------------------------
+     Shop right half
+----------------------------------------*/
+
+.shop{
+    padding: 5% 0 0 10%;
+}
+.shop h2, .shop h3{
+    text-align: center;
+}
+.shop h3{
+    color: rgb(115, 115, 115);
+    padding-bottom: 15px;
+}
+
+.shop a{
+    text-decoration: none;
+    color: black; 
+    background-color: rgb(234, 204, 194);
+    border: 1 solid transparent;
+    padding: 15px 30px;
+    border-radius: 2px;
+    margin-left: 41%;
+}
+
+/*----------------------------------------
+     Inspiration
+----------------------------------------*/
+
+video{
+    padding: 10% 0 5% 20%;
+}
+
+.ispriration{
+    padding-left: 20%;
+}
+
+.ispriration a{
+    text-decoration: none;
+    color: #867772 ;
+    margin-left: 2px;
+    border: 1px solid #867772;
+    padding: 5px 5px;
+}
+
+.feelingImg{
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
+
+.architectureImg{
+    padding: 0px 0 10% 0px;
+}
+
+.architectureText{
+   padding-left: 20%;
+   padding-top: 5%;
+}
