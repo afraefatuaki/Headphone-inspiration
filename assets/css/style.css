@@ -57,7 +57,7 @@ nav{
 }
 
 /*----------------------------------------
-    Main Section 01
+    Main Section 01 - Lounger
 ----------------------------------------*/
 main > h2{
     padding: 150px 0 5% 30%;
@@ -65,7 +65,7 @@ main > h2{
     font-size: 40px;
 }
 
-#background:first-of-type{
+#background{
     background: url("../img/section-about-1.jpg") center/contain no-repeat;
     height: 100vh;
 }
@@ -137,7 +137,7 @@ aside{
     bottom: -80px
 }
 /*----------------------------------------
-    Section 02
+    Section 02 -lounger -inspiration
 ----------------------------------------*/
 
 .designContainer h2{
@@ -157,10 +157,10 @@ aside{
 }
 
 /*----------------------------------------
-    Lounger Experiencs shop
+    -Lounger -Experience -shop
 ----------------------------------------*/
 
-/* !!!!Why my justify-context doesn't work and instead I have to use padding?*/
+/* !!!!Why my justify-context doesn't work and I have to use padding instead?*/
 .defaultContainer{
     display: flex;
     /* justify-content: space-between; */
@@ -241,3 +241,156 @@ video{
    padding-left: 20%;
    padding-top: 5%;
 }
+
+/*-----------------------------------------------------------------------------------------------------------------
+                                                Media Queries 768px
+-----------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+
+   /*====== Main Section 01 - Lounger =======*/
+    body{
+        background-color: white;
+    }
+
+    #background{
+       height: 60vh;
+    }
+
+    main > h2{
+        padding: 130px 0 20px 32%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    /*====== Nav + Logo =======*/
+
+    nav ul li{
+        padding-left: 10px;
+    }
+
+    nav ul li:last-of-type{
+        padding-left: 40px;
+    }
+
+    .logo{
+        padding-left: 20px;
+    }
+
+    nav{
+        margin-left: 25%;
+    }
+
+    /*====== Body Aside =======*/
+    aside ul li{
+        padding-top: 80px;
+    }
+
+    aside{
+        padding-top: 20%;
+    }
+
+    /*====== Section 02 -lounger -inspiration =======*/
+    .designContainer h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .designContainer{
+        display: block;
+    }
+    .designImg{
+        width: 50%;
+        padding: 20% 0 0 25%;
+    }
+    .designText{
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+        line-height: 30px
+    }
+
+    /*====== -Lounger -Experience -shop =======*/
+
+    .defaultContainer{
+        display: inline-block;
+   }
+
+    .defaultImg img{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .loungerSoudns{
+        line-height: 40px;
+        text-align: center;
+    }
+    .loungerSoudns p{
+        padding-top: 0;
+        padding-bottom: 5%;
+    }
+    .loungerSoudns h1{
+        font-size: 35px;
+    }
+
+    /*====== Shop right half =======*/
+
+    .shop{
+        margin-bottom: 100px;
+    }
+    .shop h2, .shop h3{
+        padding-right: 10%;
+    }
+   
+    .shop img{
+        padding-left: 10%;
+    }
+
+    .shop a{
+        margin-left: 39%;
+    }
+
+    /*====== Inspiration =======*/
+
+    video{
+        padding: 25% 0 0 25%;
+        width: 60%;
+    }
+
+    .ispriration{
+        padding-left: 30%;
+        margin-top: 10%;
+    }
+
+    .ispriration h2, .ispriration h1{
+        font-size: 20px;
+    }
+
+    .feelingImg{
+        padding: 10% 0 0 30%
+    }
+
+    .architectureImg{
+        padding: 0 0 30% 30%
+    }
+    .architectureContainer{
+        position: relative;
+    }
+    .architectureText{
+        padding-top: 0%;
+        position: absolute;
+        bottom: -23%;
+    }
+
+    .architectureText, .feelingText{
+        width: 50%;
+        padding-left: 25%;
+        padding-top: 0px;
+        text-align: left;
+    }
+
+    .architectureText h2, .feelingText h2{
+        text-align: left;
+    }
+
+    aside ul{
+        /* padding-left: 0px; */
+    }
